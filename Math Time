@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int answer;
+cout<<"MATH TIME! quickly, what's 8 to the third power?"<<endl;
+cin>>answer;
+  if (answer==512){
+  int answer2;
+  cout<<"SERIOUSLY?! you're right! who knows that?! Okay, another one...what's 9 to the 5th power?"<<endl;
+  cin>>answer2;
+      if(answer2==59049){
+      cout<<"Okay, stop it... you're freaking me out...are you a cyborg or something?"<<endl;
+      }
+      else{
+      cout<<"sorry buddy, you just lost your magic powers"<<endl;
+      }
+  }
+  else{
+  cout<<"WRONG! you should probably go back to kinder garden..."<<endl;
+  }
+return 0;
+}
